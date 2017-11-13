@@ -4,7 +4,7 @@ import ShadowDOM from 'react-shadow';
 
 ReactDOM.render(
     <div>
-        <ShadowDOM include={['https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css']}>
+        <ShadowDOM include={[ '/font.css']}>
             <div>
                 <i className="fa fa-comments fa-2x"></i>icon
             </div>
